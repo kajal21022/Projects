@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Star Veg Restaurant</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    html { scroll-behavior: smooth; }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #3a1a03;">
+    <div class="container">
+      <a class="navbar-brand fw-bold text-white " href="#home" style="font-size: 1.9rem;">Star-Veg Restaurant</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link  text-white" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="#menu">Menu</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <section id="home" class="hero d-flex align-items-center text-center text-black"
+           style="background-image:url('index2.jpg');">
+    <div class="container">
+      <h1 class="display-4 fw-bold">Fresh & Healthy Vegetarian Food</h1>
+      <p class="lead">Taste the best pure veg dishes in town</p>
+      <a href="#menu" class="btn btn-light mt-3">View Menu</a>
+    </div>
+  </section>
+  <section id="about" class="py-5" >
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <img src="index3 (3).jpg" class="img-fluid rounded shadow" alt="About">
+        </div>
+        <div class="col-md-6">
+          <h2>About Us</h2>
+          <p>Star Veg is a pure vegetarian restaurant offering fresh, organic ingredients and traditional Indian flavors."PEOPLE WHO LOVE TO EAT ARE ALWYAS THE BEST PEOPLE AND BEST RESTURANT. Cooking with LOVE PROVIDES FOOD FOR THE YOUUU....".</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="menu" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4">Our Veg Specialties</h2>
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="paneer.jpg" class="card-img-top" alt="Paneer Butter Masala">
+            <div class="card-body">
+              <h5 class="card-title">Paneer Butter Masala</h5>
+              <p class="card-text">Rich tomato gravy with soft paneer cubes.</p>
+              <span class="fw-bold">₹220</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4 ">
+          <div class="card">
+            <img src="biryani.jpg" class="card-img-top" alt="Veg Biryani">
+            <div class="card-body">
+              <h5 class="card-title">Veg Biryani</h5>
+              <p class="card-text">Fragrant basmati rice cooked with fresh vegetables.</p>
+              <span class="fw-bold">₹180</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="palak paneer.jpg" class="card-img-top" alt="Palak Paneer">
+            <div class="card-body">
+              <h5 class="card-title">Palak Paneer</h5>
+              <p class="card-text">Creamy spinach with cottage cheese cubes.</p>
+              <span class="fw-bold">₹200</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="contact" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Contact Us</h2>
+      <form class="col-md-6 mx-auto">
+        <input type="text" class="form-control mb-3" placeholder="Your Name">
+        <input type="email" class="form-control mb-3" placeholder="Your Email">
+        <textarea class="form-control mb-3" rows="4" placeholder="Message"></textarea>
+        <button class="btn btn-success w-100">Send Message</button>
+      </form>
+    </div>
+  </section>
+  <footer class="bg-success text-white text-center py-3">
+    © 2025 Star Veg Restaurant
+  </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
