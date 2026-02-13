@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewpoort" content="width-device-width,initial-scale=1.0">
+        <!--Font-Awesome-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+        <!--Main CSS-->
+        <link rel="stylesheet" href="style.css">
+        <title>Kajal Portfolio</title>
+    </head> 
+    <body>
+        <!--Header design-->
+        <header class="header">
+            <a href="#" class="logo">Portfolio</a>
+            <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+            <nav class="navbar">
+                <a href="#home" class="active">Home</a>
+                <a href="#about">About</a>
+                <a href="#skill">Skill</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </header>
+        <!--Home section design-->
+        <section class="home" id="home">
+            <div class="home-content">
+                <h3>Hi,Myself</h3>
+                <h1>Kajal Patil</h1>
+                <h3>And I'm a<span>Software Tester</span></h3>
+                <p>I’m a dedicated Master Of Computer Appllication student at Kaviyatri Bahinabai Chaudhari North Maharastra University,Jalgaon, specializing in front-end development,full-stack learning and Software Testing. I enjoy building responsive websites and real-world projects.</p>
+                <div class="social-media">
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                </div>
+                <a href="#" class="btn">Download CV</a>
+            </div>
+            <div class="home.img">
+                <img src="HTML/home.png"  height="300" width="300" alt="">
+            </div>
+        
+        </section>
+        <!--About section design-->
+        <section class="about" id="about">
+            <div class="about-img">
+                <img src="HTML/profile.jpeg" height=400" width="300" alt="">
+            </div>
+            <div class="about-content">
+                <h2 class="heading">About<span>Me</span></h2>
+                <h3>Software Tester</h3>
+                <p>I’m a dedicated Master Of Computer Appllication student at Kaviyatri Bahinabai Chaudhari North Maharastra University,Jalgaon, specializing in front-end development,full-stack learning and Software Testing. I enjoy building responsive websites and real-world projects.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </section>
+        <!--Skill section design-->
+        <section class="skill" id="skill">
+            <h2 class="heading">My<span>Skill</span></h2>
+
+            <div class="skill-container">
+                <!--<div class="skill-box">
+                    <i class="fa-solid fa-code"></i>
+                    <h3>Web Development</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto cupiditate voluptas possimus non consectetur quibusdam, aut porro perspiciatis? Repellendus in consectetur eveniet culpa exercitationem dolor perspiciatis officia, placeat accusantium sequi.</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>-->
+                <div class="skill-box">
+                    <i class="fa-brands fa-html5"></i>
+                    <h3>Web Development</h3>
+                    <p>Hypertext Markup Language is the standrad markup Language for document designed to display in web browser. i have</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+                <div class="skill-box">
+                   <i class="fa-brands fa-java"></i>
+                    <h3> Core Java</h3>
+                    <p>Lorem ipsum dolor sit amet, exercitationem dolor perspiciatis officia, placeat accusantium sequi.</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+        </section>
+        <!--Portfolio section design-->
+        <section class="portfolio" id="portfolio">
+            <h2 class="heading">Latest<span>Projects</span></h2>
+            <div class="portfolio-container">
+                <div class="portfolio-box">
+                    <img class="" alt="">
+                    <div class="portfolio-layer">
+                        <h4>Web Design</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                        <i class="fa-solid fa-share-from-square"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Contact section design-->
+        <section class="contact" id="contact">
+            <h2 class="heading">Contact<span>Me</span></h2>
+            <form action="#">
+                <div class="input-box">
+                    <input type="text" placeholder="Full Name">
+                    <input type="email" placeholder="Email Address">
+                </div>
+                <div class="input-box">
+                    <input type="number" placeholder="Mobile Nnumber">
+                    <input type="text" placeholder="Email Subject">
+                </div>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                <input type="submit" value="Send Message" class="btn">
+            </form>
+        </section>
+         <!--Footer section design-->
+         <footer class="footer">
+            <div class="footer-text">
+                <p>Copyright &copy; 2025 By Kajal Patil | Made with Using HTML,CSS.</p>
+            </div>
+            <div class="footer-iconTop">
+                <a href="#home"><i class="fa-solid fa-house"></i></a>
+            </div>
+         </footer>
+
+
+        <!--<footer class="bg-dark text-white text-center p-3">
+          © 2025 Kajal Patil | Made with ❤️ using HTML,CSS
+         </footer>
+
+         --- JavaScript --
+        <script>
+        function showMessage() {
+        alert("Message sent! Thank you for contacting me.");
+        }
+        </script>-->
+
+
+
+
+
+        <script src="JS/main.js"></script>
+    </body>
+</html>        
